@@ -1,0 +1,47 @@
+@import "../../utils/colors";
+@import "../../utils/fonts";
+
+nav {
+	height: 8vh;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	background-color: $white-color;
+}
+
+.nav-container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 2rem;
+
+	&__right {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		font-size: 1.6rem;
+	}
+
+	&__logo {
+		font-size: $title-font-size;
+	}
+
+	&__icon-container {
+		padding-left: 0.5rem;
+		margin-left: 1rem;
+		cursor: pointer;
+		color: $dark-font-color;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__avatar {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		margin-left: 1.5rem;
+		cursor: pointer;
+	}
+}
