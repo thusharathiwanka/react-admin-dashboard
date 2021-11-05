@@ -1,3 +1,5 @@
+import Home from "./pages/Home";
+
 import Navbar from "./components/navbar/Navbar";
 import Sidebar from "./components/sidebar/Sidebar";
 
@@ -9,7 +11,9 @@ const App = () => {
 			<Navbar />
 			<div className="app__body-container">
 				<Sidebar />
-				<div className="app__right-container"></div>
+				<div className="app__right-container">
+					<Home />
+				</div>
 			</div>
 		</div>
 	);
