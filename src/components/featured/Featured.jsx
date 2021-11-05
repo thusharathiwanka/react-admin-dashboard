@@ -13,7 +13,7 @@ const Featured = () => {
 						<h1 className="featured__value">$ 2,516</h1>
 						<div className="featured__percentage">
 							<span className="featured__percentage-value">-5.5%</span>
-							<RiArrowDownSLine />
+							<RiArrowDownSLine className="featured__indicator" />
 						</div>
 					</div>
 				</div>
@@ -23,7 +23,7 @@ const Featured = () => {
 						<h1 className="featured__value">$ 4,516</h1>
 						<div className="featured__percentage">
 							<span className="featured__percentage-value">-2.1%</span>
-							<RiArrowDownSLine />
+							<RiArrowDownSLine className="featured__indicator" />
 						</div>
 					</div>
 				</div>
@@ -33,7 +33,7 @@ const Featured = () => {
 						<h1 className="featured__value">$ 1,816</h1>
 						<div className="featured__percentage">
 							<span className="featured__percentage-value">+2.5%</span>
-							<RiArrowUpSLine />
+							<RiArrowUpSLine className="featured__indicator" />
 						</div>
 					</div>
 				</div>
