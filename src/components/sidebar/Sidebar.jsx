@@ -78,10 +78,6 @@ const Sidebar = () => {
 							<RiPulseLine className="sidebar__icon" />
 							<Link to="/">Analytics</Link>
 						</li>
-						<li className="sidebar__item">
-							<RiBarChartFill className="sidebar__icon" />
-							<Link to="/">Reports</Link>
-						</li>
 					</ul>
 				</div>
 			</div>

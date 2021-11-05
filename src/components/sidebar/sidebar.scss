@@ -4,13 +4,16 @@
 
 .sidebar {
 	flex: 1;
-	height: calc(100vh - 8vh);
+	height: calc(100vh - 16vh);
 	position: sticky;
 	top: 8vh;
+	margin: 2rem 2rem;
 
 	&__container {
 		height: 100%;
-		padding: 2rem;
+		padding: 2rem 0 2rem 2rem;
+		box-shadow: $box-shadow;
+		border-radius: 18px;
 	}
 
 	&__title {
@@ -28,17 +31,26 @@
 		display: flex;
 		align-items: center;
 		padding: 0.6rem;
+		transition: color 0.3s ease-in-out;
 	}
 
-	&__item.active,
+	&__item.active {
+		color: $accent-color;
+		border-right: 6px solid $accent-color;
+	}
+
 	&__item:hover,
 	&__item:focus {
-		background: #f1f1f1;
-		border-radius: $border-radius;
+		color: $accent-color;
 	}
 
 	&__icon {
 		font-size: $icon-font-size;
 		margin-right: 1rem;
+	}
+
+	&__item a {
+		font-size: 1rem;
+		font-weight: $body-font-weight;
 	}
 }
