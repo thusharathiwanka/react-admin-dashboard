@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import {
-	RiBarChartLine,
+	RiBarChartFill,
 	RiChat1Line,
 	RiFeedbackLine,
 	RiHomeLine,
@@ -49,7 +49,7 @@ const Sidebar = () => {
 							<Link to="/">Transactions</Link>
 						</li>
 						<li className="sidebar__item">
-							<RiBarChartLine className="sidebar__icon" />
+							<RiBarChartFill className="sidebar__icon" />
 							<Link to="/">Reports</Link>
 						</li>
 					</ul>
@@ -79,7 +79,7 @@ const Sidebar = () => {
 							<Link to="/">Analytics</Link>
 						</li>
 						<li className="sidebar__item">
-							<RiBarChartLine className="sidebar__icon" />
+							<RiBarChartFill className="sidebar__icon" />
 							<Link to="/">Reports</Link>
 						</li>
 					</ul>
