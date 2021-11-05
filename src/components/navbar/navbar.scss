@@ -1,5 +1,6 @@
 @import "../../utils/colors";
 @import "../../utils/fonts";
+@import "../../utils/mixins";
 
 nav {
 	height: 8vh;
@@ -12,15 +13,11 @@ nav {
 
 .nav-container {
 	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	@include flex-between;
 	padding: 0 2rem;
 
 	&__right {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
+		@include flex-between;
 		font-size: $icon-font-size;
 	}
 
@@ -29,13 +26,11 @@ nav {
 	}
 
 	&__icon-container {
+		@include flex-center;
 		padding-left: 0.5rem;
 		margin-left: 1rem;
 		cursor: pointer;
 		color: $dark-font-color;
-		display: flex;
-		align-items: center;
-		justify-content: center;
 	}
 
 	&__avatar {
