@@ -1,4 +1,4 @@
-import { RiSettings4Fill, RiNotification3Fill, RiGlobalFill } from "react-icons/ri";
+import { RiSettings4Line, RiNotification3Line, RiGlobalLine } from "react-icons/ri";
 
 import TopAvatar from "../../assets/images/top-avatar.jpg";
 
@@ -15,13 +15,13 @@ const Navbar = () => {
 				</div>
 				<div className="nav-container__right">
 					<div className="nav-container__icon-container">
-						<RiGlobalFill />
+						<RiGlobalLine />
 					</div>
 					<div className="nav-container__icon-container">
-						<RiSettings4Fill />
+						<RiSettings4Line />
 					</div>
 					<div className="nav-container__icon-container">
-						<RiNotification3Fill />
+						<RiNotification3Line />
 					</div>
 					<img src={TopAvatar} alt="top-avatar" className="nav-container__avatar" />
 				</div>

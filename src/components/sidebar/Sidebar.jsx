@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 import {
 	RiBarChartFill,
-	RiChat1Fill,
-	RiFeedbackFill,
-	RiHomeFill,
-	RiMailFill,
-	RiMoneyDollarCircleFill,
-	RiPulseFill,
-	RiStackFill,
-	RiStore2Fill,
-	RiUser3Fill,
+	RiChat1Line,
+	RiFeedbackLine,
+	RiHomeLine,
+	RiMailLine,
+	RiMoneyDollarCircleLine,
+	RiPulseLine,
+	RiStackLine,
+	RiStore2Line,
+	RiUser3Line,
 } from "react-icons/ri";
 
 import "./sidebar.scss";
@@ -22,30 +22,30 @@ const Sidebar = () => {
 					<h3 className="sidebar__title">Dashboard</h3>
 					<ul className="sidebar__links">
 						<li className="sidebar__item active">
-							<RiHomeFill className="sidebar__icon" />
+							<RiHomeLine className="sidebar__icon" />
 							<Link to="/">Home</Link>
 						</li>
 						<li className="sidebar__item">
-							<RiPulseFill className="sidebar__icon" />
+							<RiPulseLine className="sidebar__icon" />
 							<Link to="/">Analytics</Link>
 						</li>
 						<li className="sidebar__item">
-							<RiStackFill className="sidebar__icon" />
+							<RiStackLine className="sidebar__icon" />
 							<Link to="/">Sales</Link>
 						</li>
 					</ul>
 					<h3 className="sidebar__title">Quick Menu</h3>
 					<ul className="sidebar__links">
 						<li className="sidebar__item">
-							<RiUser3Fill className="sidebar__icon" />
+							<RiUser3Line className="sidebar__icon" />
 							<Link to="/">Users</Link>
 						</li>
 						<li className="sidebar__item">
-							<RiStore2Fill className="sidebar__icon" />
+							<RiStore2Line className="sidebar__icon" />
 							<Link to="/">Products</Link>
 						</li>
 						<li className="sidebar__item">
-							<RiMoneyDollarCircleFill className="sidebar__icon" />
+							<RiMoneyDollarCircleLine className="sidebar__icon" />
 							<Link to="/">Transactions</Link>
 						</li>
 						<li className="sidebar__item">
@@ -56,26 +56,26 @@ const Sidebar = () => {
 					<h3 className="sidebar__title">Notifications</h3>
 					<ul className="sidebar__links">
 						<li className="sidebar__item">
-							<RiMailFill className="sidebar__icon" />
+							<RiMailLine className="sidebar__icon" />
 							<Link to="/">Mail</Link>
 						</li>
 						<li className="sidebar__item">
-							<RiFeedbackFill className="sidebar__icon" />
+							<RiFeedbackLine className="sidebar__icon" />
 							<Link to="/">Feedback</Link>
 						</li>
 						<li className="sidebar__item">
-							<RiChat1Fill className="sidebar__icon" />
+							<RiChat1Line className="sidebar__icon" />
 							<Link to="/">Messages</Link>
 						</li>
 					</ul>
 					<h3 className="sidebar__title">Staff</h3>
 					<ul className="sidebar__links">
 						<li className="sidebar__item">
-							<RiUser3Fill className="sidebar__icon" />
+							<RiUser3Line className="sidebar__icon" />
 							<Link to="/">Manage</Link>
 						</li>
 						<li className="sidebar__item">
-							<RiPulseFill className="sidebar__icon" />
+							<RiPulseLine className="sidebar__icon" />
 							<Link to="/">Analytics</Link>
 						</li>
 						<li className="sidebar__item">

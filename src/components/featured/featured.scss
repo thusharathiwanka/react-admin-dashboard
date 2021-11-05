@@ -1,0 +1,18 @@
+@import "../../utils/measures";
+@import "../../utils/mixins";
+
+.featured {
+	width: 100%;
+	padding: 2rem 2rem 2rem 0;
+
+	&__container {
+		@include flex-between;
+	}
+
+	&__card {
+		flex: 1;
+		padding: 2rem;
+		margin: 0 1.5rem;
+		border-radius: $border-radius-card;
+	}
+}
