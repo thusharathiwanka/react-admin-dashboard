@@ -1,0 +1,44 @@
+@import "../../utils/colors";
+@import "../../utils/fonts";
+@import "../../utils/measures";
+
+.sidebar {
+	flex: 1;
+	height: calc(100vh - 8vh);
+	position: sticky;
+	top: 8vh;
+
+	&__container {
+		height: 100%;
+		padding: 2rem;
+	}
+
+	&__title {
+		font-size: $subtitle-font-size;
+		color: $grey-color;
+		padding-bottom: 1rem;
+	}
+
+	&__title:not(:first-child) {
+		margin-top: 1rem;
+	}
+
+	&__item {
+		font-size: 1rem;
+		display: flex;
+		align-items: center;
+		padding: 0.6rem;
+	}
+
+	&__item.active,
+	&__item:hover,
+	&__item:focus {
+		background: #f1f1f1;
+		border-radius: $border-radius;
+	}
+
+	&__icon {
+		font-size: $icon-font-size;
+		margin-right: 1rem;
+	}
+}
