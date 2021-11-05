@@ -1,0 +1,9 @@
+.app {
+	&__body-container {
+		display: flex;
+	}
+
+	&__right-container {
+		flex: 5;
+	}
+}
