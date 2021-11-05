@@ -17,9 +17,10 @@
 	}
 
 	&__title {
-		font-size: $subtitle-font-size;
+		font-size: 1.1rem;
 		color: $grey-color;
-		padding-bottom: 1rem;
+		padding-bottom: 0.6rem;
+		font-weight: 600;
 	}
 
 	&__title:not(:first-child) {
