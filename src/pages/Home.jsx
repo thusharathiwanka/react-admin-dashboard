@@ -1,5 +1,7 @@
-import Featured from "../components/featured/Featured";
 import Chart from "../components/charts/Chart";
+import Featured from "../components/featured/Featured";
+import LargeWidget from "../components/widgets/large/LargeWidget";
+import SmallWidget from "../components/widgets/small/SmallWidget";
 
 import { salesData, usersData } from "../helpers/chartData";
 
@@ -20,6 +22,10 @@ const Home = () => {
 					color="#5eba68"
 					title="Users Analytics"
 				/>
+			</div>
+			<div className="widgets">
+				<SmallWidget title="New Join Members" />
+				<LargeWidget />
 			</div>
 		</>
 	);
