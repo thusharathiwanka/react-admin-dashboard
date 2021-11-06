@@ -1,0 +1,15 @@
+@import "./../../utils/measures";
+
+.sales-chart,
+.users-chart {
+	flex: 1;
+	margin: 0 1.5rem;
+	padding: 2rem;
+	box-shadow: $box-shadow;
+	border-radius: $border-radius-card;
+}
+
+.sales-chart__title,
+.users-chart__title {
+	padding-bottom: 1rem;
+}
