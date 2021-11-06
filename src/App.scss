@@ -1,3 +1,5 @@
+@import "./utils/mixins";
+
 .app {
 	&__body-container {
 		display: flex;
@@ -6,4 +8,9 @@
 	&__right-container {
 		flex: 5;
 	}
+}
+
+.charts-container {
+	@include flex-center;
+	padding: 2rem 2rem 2rem 0;
 }
