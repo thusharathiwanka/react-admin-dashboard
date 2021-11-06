@@ -1,0 +1,40 @@
+@import "../../../utils/mixins";
+@import "../../../utils/colors";
+
+.list-item {
+	@include flex-between;
+	padding: 0.8rem 0;
+
+	&__avatar {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		overflow: hidden;
+		margin-right: 10px;
+	}
+
+	&__name {
+		font-weight: 500;
+		padding-bottom: 0.2rem;
+	}
+
+	&__position {
+		font-weight: 400;
+		font-size: 0.9rem;
+		color: rgb(195, 195, 195);
+	}
+
+	&__view {
+		@include flex-center;
+		outline: none;
+		border: none;
+		padding: 0.2rem 0.5rem;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+
+	&__icon {
+		margin-right: 0.5rem;
+		font-size: 1rem;
+	}
+}
