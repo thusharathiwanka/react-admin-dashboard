@@ -1,13 +1,4 @@
-import {
-	LineChart,
-	Line,
-	XAxis,
-	YAxis,
-	CartesianGrid,
-	Tooltip,
-	Legend,
-	ResponsiveContainer,
-} from "recharts";
+import { LineChart, Line, XAxis, Tooltip, ResponsiveContainer } from "recharts";
 
 import "./chart.scss";
 
@@ -15,51 +6,51 @@ const SalesChart = () => {
 	const data = [
 		{
 			name: "Jan",
-			users: 4000,
+			sales: 4000,
 		},
 		{
 			name: "Feb",
-			users: 3000,
+			sales: 3000,
 		},
 		{
 			name: "Mar",
-			users: 2000,
+			sales: 2000,
 		},
 		{
 			name: "Apr",
-			users: 2780,
+			sales: 2780,
 		},
 		{
 			name: "May",
-			users: 1890,
+			sales: 1890,
 		},
 		{
 			name: "Jun",
-			users: 2390,
+			sales: 2390,
 		},
 		{
 			name: "Jul",
-			users: 3490,
+			sales: 3490,
 		},
 		{
 			name: "Aug",
-			users: 3400,
+			sales: 3400,
 		},
 		{
 			name: "Sep",
-			users: 2090,
+			sales: 2090,
 		},
 		{
 			name: "Oct",
-			users: 3490,
+			sales: 3490,
 		},
 		{
 			name: "Nov",
-			users: 4590,
+			sales: 4590,
 		},
 		{
 			name: "Dec",
-			users: 1490,
+			sales: 1490,
 		},
 	];
 
@@ -69,7 +60,7 @@ const SalesChart = () => {
 			<ResponsiveContainer width="100%" aspect={4 / 1}>
 				<LineChart data={data}>
 					<XAxis dataKey="name" stroke="#c6c6c6" fontSize={15} />
-					<Line type="monotone" dataKey="users" stroke="#6c61b0" strokeWidth={2} />
+					<Line type="monotone" dataKey="sales" stroke="#6c61b0" strokeWidth={2} />
 					<Tooltip />
 				</LineChart>
 			</ResponsiveContainer>

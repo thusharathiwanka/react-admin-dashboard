@@ -10,7 +10,7 @@ const Featured = () => {
 				<div className="featured__card color-green">
 					<h2 className="featured__title">Revenue</h2>
 					<div className="featured__stats">
-						<h1 className="featured__value">$ 2,516</h1>
+						<h1 className="featured__value">$ 2,688</h1>
 						<div className="featured__percentage">
 							<span className="featured__percentage-value">-5.5%</span>
 							<RiArrowDownSLine className="featured__indicator" />
@@ -30,7 +30,7 @@ const Featured = () => {
 				<div className="featured__card color-brown">
 					<h2 className="featured__title">Cost</h2>
 					<div className="featured__stats">
-						<h1 className="featured__value">$ 1,816</h1>
+						<h1 className="featured__value">$ 1,828</h1>
 						<div className="featured__percentage">
 							<span className="featured__percentage-value">+2.5%</span>
 							<RiArrowUpSLine className="featured__indicator" />
