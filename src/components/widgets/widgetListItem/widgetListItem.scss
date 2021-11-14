@@ -11,6 +11,16 @@
 		border-radius: 50%;
 		overflow: hidden;
 		margin-right: 10px;
+		object-fit: cover;
+	}
+
+	&__avatar-container {
+		flex: 1;
+	}
+
+	&__info {
+		flex: 3;
+		@include flex-between;
 	}
 
 	&__name {
