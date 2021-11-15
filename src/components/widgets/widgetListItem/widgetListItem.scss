@@ -6,8 +6,8 @@
 	padding: 0.8rem 0;
 
 	&__avatar {
-		width: 50px;
-		height: 50px;
+		width: 60px;
+		height: 60px;
 		border-radius: 50%;
 		overflow: hidden;
 		margin-right: 10px;
@@ -19,7 +19,7 @@
 	}
 
 	&__info {
-		flex: 3;
+		flex: 2.5;
 		@include flex-between;
 	}
 
