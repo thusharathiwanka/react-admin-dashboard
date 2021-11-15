@@ -25,7 +25,7 @@ const Home = () => {
 			</div>
 			<div className="widgets">
 				<SmallWidget title="New Join Members" />
-				<LargeWidget />
+				<LargeWidget title="Latest Transactions" />
 			</div>
 		</>
 	);
