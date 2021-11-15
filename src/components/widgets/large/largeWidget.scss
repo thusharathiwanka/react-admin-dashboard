@@ -1,3 +1,4 @@
+@import "../../../utils/colors";
 @import "../../../utils/measures";
 
 .large-widget {
@@ -9,5 +10,18 @@
 
 	&__title {
 		padding-bottom: 1rem;
+	}
+
+	&__table {
+		width: 100%;
+	}
+
+	&__table-head {
+		text-align: left;
+		color: $grey-color;
+	}
+
+	&__table-head th {
+		padding: 0.5rem;
 	}
 }
